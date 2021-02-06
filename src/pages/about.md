@@ -6,29 +6,29 @@ sections:
     align: center
   - type: content_section
     content: >-
-      Nisi porta lorem mollis aliquam ut porttitor. Pellentesque dignissim enim
-      sit amet venenatis urna cursus eget nunc. Dui nunc mattis enim ut tellus.
-      Eu sem integer vitae justo eget magna fermentum. Habitant morbi tristique
-      senectus et netus et malesuada fames. Ipsum dolor sit amet consectetur
-      adipiscing elit pellentesque habitant.
+      At Triline Ng, we strive for excellence and scalability. We are not just
+      your regular sign designers, fabrication or manufacturers, we are a
+      company that stands up to any challenge. We encourage our customers to
+      think as big as they can and we take up the challenge of bringing their
+      thoughts and dreams to reality.
 
 
-      Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Ac
-      felis donec et odio pellentesque. Sem nulla pharetra diam sit amet.
-      Egestas tellus rutrum tellus pellentesque eu. Auctor augue mauris augue
-      neque. Lectus arcu bibendum at varius vel pharetra. Enim sed faucibus
-      turpis in eu mi bibendum neque egestas.
+      At Triline Ng, the more challenging the project, the more exciting it becomes. Our international partnership and collaboration means we stay ahead of the technology that drives the industry.
+
+
+      Our customized laser cut wedding cards are very affordable and are a unique way to make that memorable statement – a collector’s item of all times.
+
+
+      Our team of designers and laser specialists and fabricators, utilize the latest and best materials and methods to achieve incredible detail in finishing and product. You will not see our signs slip, slither or slant, except by design.
   - type: team_section
     title: Our Team
     team:
       - src/data/team/miles-tone.yaml
       - src/data/team/dianne-ameter.yaml
       - src/data/team/eleanor-carr.yaml
-      - src/data/team/hanson-deck.yaml
-      - src/data/team/gordon-norman.yaml
   - type: cta_section
     title: Join the Team
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    subtitle: Join our growing team of young vibrant and intelligent people.
     actions:
       - type: action
         label: Contact Us
