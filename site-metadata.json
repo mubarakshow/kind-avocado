@@ -29,6 +29,14 @@
         "label": "Contact Us",
         "url": "/contact",
         "style": "primary"
+      },
+      {
+        "style": "link",
+        "new_window": false,
+        "no_follow": false,
+        "type": "action",
+        "label": "Home",
+        "url": "/"
       }
     ],
     "logo": "/images/triline-ng-logo.png",
