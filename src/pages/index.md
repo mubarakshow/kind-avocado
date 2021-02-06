@@ -1,11 +1,20 @@
 ---
 title: Home
 sections:
-  - type: hero_section
-    title: This Is A Big Hero Headline
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+  - image_alt: Hero placeholder image
+    align: left
+    image_position: right
+    background:
+      background_color: blue
+      background_image: images/diagonal-lines.svg
+      background_image_opacity: 20
+      background_image_size: auto
+      background_image_repeat: repeat
+    has_background: true
+    subtitle: Building memorable brands across Nigeria and beyond
+    title: Think branding? Think TRILINE NG!
+    type: hero_section
+    image: /images/steel-cutting.jpg
     actions:
       - type: action
         label: Learn More
@@ -15,24 +24,12 @@ sections:
         label: Contact Us
         url: /contact
         style: secondary
-    align: left
-    image: images/hero.svg
-    image_alt: Hero placeholder image
-    image_position: right
-    has_background: true
-    background:
-      background_color: blue
-      background_image: images/diagonal-lines.svg
-      background_image_opacity: 20
-      background_image_size: auto
-      background_image_repeat: repeat
   - type: features_section
     title: Features
     features:
       - type: feature
         title: Feature 1
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla.
         align: left
@@ -46,10 +43,9 @@ sections:
             style: secondary
       - type: feature
         title: Feature 2
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut diam
+          quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio euismod
+          lacinia.
         align: left
         image: images/feature.svg
         image_alt: Feature 2 placeholder image
@@ -61,10 +57,8 @@ sections:
             style: secondary
       - type: feature
         title: Feature 3
-        content: >-
-          Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus
-          eget nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in
-          ante.
+        content: Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus eget
+          nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in ante.
         align: left
         image: images/feature.svg
         image_alt: Feature 3 placeholder image
@@ -80,9 +74,8 @@ sections:
     recent_count: 3
   - type: cta_section
     title: This Is A CTA
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+      metus quis lorem malesuada luctus.
     actions:
       - type: action
         label: Learn More
