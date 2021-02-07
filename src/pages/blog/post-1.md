@@ -1,7 +1,7 @@
 ---
 title: Utrum Igitur Tibi Litteram Videor An Totas Paginas
 date: '2020-04-16'
-author: src/data/team/dianne-ameter.yaml
+author: src/data/team/david-abam.yaml
 categories:
   - src/data/categories/tutorials.yaml
   - src/data/categories/general.yaml
