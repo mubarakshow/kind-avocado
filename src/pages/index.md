@@ -5,11 +5,11 @@ sections:
     align: left
     image_position: right
     background:
-      background_color: blue
-      background_image: images/diagonal-lines.svg
-      background_image_opacity: 20
+      background_color: gray
+      background_image: /images/glass-blowing-1-.jpg
+      background_image_opacity: 60
       background_image_size: auto
-      background_image_repeat: repeat
+      background_image_repeat: no-repeat
     has_background: true
     subtitle: Building memorable brands across Nigeria and beyond
     title: Think branding? Think TRILINE NG!
