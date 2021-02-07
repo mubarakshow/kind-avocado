@@ -24,7 +24,7 @@ sections:
     title: Our Team
     team:
       - src/data/team/miles-tone.yaml
-      - src/data/team/dianne-ameter.yaml
+      - src/data/team/david-abam.yaml
       - src/data/team/eleanor-carr.yaml
   - type: cta_section
     title: Join the Team
