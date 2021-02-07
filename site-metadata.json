@@ -16,20 +16,28 @@
       },
       {
         "type": "action",
-        "label": "About",
-        "url": "/about",
-        "style": "link"
-      },
-      {
-        "type": "action",
         "label": "Services",
         "url": "/features",
         "style": "link"
       },
       {
+        "style": "link",
+        "new_window": false,
+        "no_follow": false,
+        "type": "action",
+        "label": "Gallery",
+        "url": "/gallery"
+      },
+      {
         "type": "action",
         "label": "Blog",
         "url": "/blog",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "label": "About",
+        "url": "/about",
         "style": "link"
       },
       {
