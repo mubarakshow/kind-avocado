@@ -22,7 +22,7 @@
       },
       {
         "type": "action",
-        "label": "Process",
+        "label": "Services",
         "url": "/features",
         "style": "link"
       },
