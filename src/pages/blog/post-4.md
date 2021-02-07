@@ -1,6 +1,6 @@
 ---
-title: Vos Autem Cum Perspicuis Dubia Debeatis Illustrare
-date: '2020-05-30'
+title: Beautify Office and Increased Productivity. An In-depth Case Study
+date: 2020-05-30
 author: src/data/team/david-abam.yaml
 categories:
   - src/data/categories/tutorials.yaml
@@ -8,12 +8,11 @@ categories:
 tags:
   - JAMstack
   - Sourcebit
-image: images/4.png
+image: /images/office-art-1-.jpg
 image_alt: Post 4 placeholder image
-excerpt: >-
-  Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam dicat
-  Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum
-  vitium consuetudo Latina traduceret.
+excerpt: Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam
+  dicat Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum
+  certum vitium consuetudo Latina traduceret.
 template: post
 ---
 
