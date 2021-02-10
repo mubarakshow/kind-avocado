@@ -25,8 +25,16 @@
         "new_window": false,
         "no_follow": false,
         "type": "action",
-        "label": "Gallery",
-        "url": "/gallery"
+        "label": "Projects",
+        "url": "/projects"
+      },
+      {
+        "style": "link",
+        "new_window": false,
+        "no_follow": false,
+        "type": "action",
+        "label": "Products",
+        "url": "/products"
       },
       {
         "type": "action",
@@ -47,7 +55,7 @@
         "style": "primary"
       }
     ],
-    "logo": "/images/triline-ng-logo.png",
+    "logo": "/images/triline-logo.png",
     "logo_alt": "Triline Nigeria logo"
   },
   "footer": {
