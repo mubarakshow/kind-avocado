@@ -882,8 +882,8 @@ collections:
               - widget: image
                 name: image
                 required: true  
+                collection: project
                 multiple: true
-                collection: product
       - widget: hidden
         name: template
         label: Template
