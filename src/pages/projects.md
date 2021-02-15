@@ -20,5 +20,7 @@ sections:
         type: action
         label: Get A Quote
         url: /contact
+  - type: project_section
+    image: /images/1.png
 template: advanced
 ---
