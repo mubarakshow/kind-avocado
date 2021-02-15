@@ -875,6 +875,15 @@ collections:
                 required: true
                 hint: The type of the object
                 default: team_section
+          - name: project_section
+            widget: object
+            label: Project Section
+            fields:
+              - widget: image
+                name: image
+                required: true  
+                multiple: true
+                collection: product
       - widget: hidden
         name: template
         label: Template
