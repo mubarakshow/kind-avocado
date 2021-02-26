@@ -16,15 +16,25 @@
       },
       {
         "type": "action",
-        "label": "About",
-        "url": "/about",
+        "label": "Services",
+        "url": "/features",
         "style": "link"
       },
       {
+        "style": "link",
+        "new_window": false,
+        "no_follow": false,
         "type": "action",
-        "label": "Process",
-        "url": "/features",
-        "style": "link"
+        "label": "Projects",
+        "url": "/projects"
+      },
+      {
+        "style": "link",
+        "new_window": false,
+        "no_follow": false,
+        "type": "action",
+        "label": "Products",
+        "url": "/products"
       },
       {
         "type": "action",
@@ -34,12 +44,18 @@
       },
       {
         "type": "action",
+        "label": "About",
+        "url": "/about",
+        "style": "link"
+      },
+      {
+        "type": "action",
         "label": "Contact Us",
         "url": "/contact",
         "style": "primary"
       }
     ],
-    "logo": "/images/triline-ng-logo.png",
+    "logo": "/images/triline-logo.png",
     "logo_alt": "Triline Nigeria logo"
   },
   "footer": {

@@ -875,6 +875,49 @@ collections:
                 required: true
                 hint: The type of the object
                 default: team_section
+          - name: project_section
+            widget: object
+            label: Project Section
+            fields:
+              - widget: string
+                name: title
+                label: Section Title
+                required: false
+                fields:
+                  - widget: list
+                    name: projects
+                    label: Projects
+                    fields:
+                    - widget: string
+                      name: Title
+                      label: Project Title
+                    - widget: string
+                      name: Description
+                      label: Project Description
+                      required: false
+                    - widget: list
+                      name: Images
+                      label: Image collection for this project
+                      required: true
+                      fields:
+                        - widget: image
+                          name: project_photo
+                          label: Project Photo
+                          required: true
+                        - widget: string
+                          name: project_photo_alt_text
+                          label: Image Decription
+                          required: false
+                        - widget: markdown
+                          name: project_photo_description
+                          label: Describe the process in this photo
+                          required: false
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: project_section
       - widget: hidden
         name: template
         label: Template

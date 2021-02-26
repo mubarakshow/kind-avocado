@@ -1,15 +1,14 @@
 ---
-title: Utrum Igitur Tibi Litteram Videor An Totas Paginas
-date: '2020-04-16'
+title: "Glass Blowing, an Art of Mastery "
+date: 2021-01-13T23:00:00.000Z
 author: src/data/team/david-abam.yaml
 categories:
   - src/data/categories/tutorials.yaml
   - src/data/categories/general.yaml
-image: images/1.png
+image: /images/glass-blowing-1-.jpg
 image_alt: Post 1 placeholder image
-excerpt: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti
-  magnitudine obruebantur. Duo Reges: constructio interrete.
+excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala
+  virtuti magnitudine obruebantur. Duo Reges: constructio interrete."
 template: post
 ---
 
