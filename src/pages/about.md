@@ -2,8 +2,9 @@
 title: Who We Are
 sections:
   - type: hero_section
-    title: Who We Are
+    title: About Triline NG
     align: center
+    image: /images/1.png
   - type: content_section
     content: >-
       At Triline Ng, we strive for excellence and scalability. We are not just
