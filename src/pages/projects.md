@@ -20,13 +20,5 @@ sections:
         type: action
         label: Get A Quote
         url: /contact
-  - type: project_section
-    projects:
-      - Title: GTBank Signage
-        Description: The GTBank signage of Garki 2
-        Images:
-          - project_photo: /images/gtbank-signage.png
-            project_photo_description: ""
-            project_photo_alt_text: Triline ng gtbank signage wuse 2
 template: advanced
 ---
