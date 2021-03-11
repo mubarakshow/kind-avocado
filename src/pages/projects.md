@@ -20,5 +20,12 @@ sections:
         type: action
         label: Get A Quote
         url: /contact
+  - type: project_section
+    projects:
+      - Title: GTBank Signage
+        Description: The GTBank signage of wuse 2 branch
+        Images:
+          - project_photo_alt_text: gtbank signage wuse 2 branch
+            project_photo: /images/gtbank-signage.png
 template: advanced
 ---
