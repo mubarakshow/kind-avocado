@@ -888,14 +888,14 @@ collections:
                 label: Projects
                 fields:
                 - widget: string
-                  name: Title
+                  name: title
                   label: Project Title
                 - widget: string
-                  name: Description
+                  name: description
                   label: Project Description
                   required: false
                 - widget: list
-                  name: Images
+                  name: images
                   label: Image collection for this project
                   required: true
                   fields:
@@ -911,6 +911,18 @@ collections:
                       name: project_photo_description
                       label: Describe the process in this photo
                       required: false
+                    - widget: hidden
+                      name: type
+                      label: Object type
+                      required: true
+                      hint: The type of object
+                      default: projec_image
+                - widget: hidden
+                  name: type
+                  label: Object Type
+                  hint: The type of object
+                  default: project
+                  required: true
               - widget: hidden
                 name: type
                 label: Object Type

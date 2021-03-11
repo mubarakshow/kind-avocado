@@ -30,41 +30,6 @@ export default class ProjectSection extends React.Component {
   render() {
     let section = _.get(this.props, "section", null);
 
-    const customStyles = {
-      content: {
-        top: "50%",
-        left: "50%",
-        right: "auto",
-        bottom: "auto",
-        marginRight: "-50%",
-        transform: "translate(-50%, -50%)",
-      },
-    };
-
-    // return (
-    //   <div>
-    //     <button onClick={this.handleModalOpen}>Open Modal</button>
-    //     <Modal
-    //       isOpen={this.state.modalIsOpen}
-    //       onAfterOpen={afterOpenModal}
-    //       onRequestClose={this.handleModalClose}
-    //       style={customStyles}
-    //       contentLabel="Example Modal"
-    //     >
-
-    //       <h2 ref={_subtitle => (subtitle = _subtitle)}>Hello</h2>
-    //       <button onClick={closeModal}>close</button>
-    //       <div>I am a modal</div>
-    //       <form>
-    //         <input />
-    //         <button>tab navigation</button>
-    //         <button>stays</button>
-    //         <button>inside</button>
-    //         <button>the modal</button>
-    //       </form>
-    //     </Modal>
-    //   </div>
-    // )
     return (
       <section className={classNames("section")}>
         {_.get(section, "title", null) && (
