@@ -1,11 +1,6 @@
 ---
 title: Services
 sections:
-  - type: hero_section
-    title: Services
-    subtitle: Triline NG prides itself on having your brand's best interest at mind.
-      Hence, we provide the following services.
-    align: center
   - type: features_section
     features:
       - type: feature
