@@ -274,7 +274,7 @@ models:
             - content_section
             - cta_section
             - features_section
-            - project_section
+            - projects_section
             - hero_section
             - team_section
   blog_feed_section:
@@ -374,7 +374,7 @@ models:
           type: model
           models:
             - feature
-  project_section:
+  projects_section:
     type: object
     labe: Project Section
     labelField: title

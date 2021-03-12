@@ -5,7 +5,7 @@
  * images can be added through Netlify CMS
  */
 
-import React from "react";
+import React, { useEffect } from "react";
 import _ from "lodash";
 import Modal from "react-modal";
 
@@ -20,16 +20,9 @@ export default class ProjectSection extends React.Component {
     this.handleModalOpen = this.handleModalOpen.bind(this);
   }
 
-  handleModalOpen() {
-    this.setState((this.state.modalIsOpen = true));
-  }
-  handleModalClose() {
-    this.setState((this.state.modalIsOpen = false));
-  }
-
   render() {
     let section = _.get(this.props, "section", null);
-
+    console.log('section Data', section)
     return (
       <section className={classNames("section")}>
         {_.get(section, "title", null) && (
@@ -38,16 +31,17 @@ export default class ProjectSection extends React.Component {
           </div>
         )}
         <div className="container container--lg">
-          {_.map(_.get(section, "projects", null), (project, project_idx) => (
+          {_.map(_.get(section, "projects", null), (project, project_idx) => {
             // add project card. display in a grid
-            <div key={project_idx}>
-              {_.get(project, "image", null) && (
-                <div className="flex flex--middle flex--center flex--col-2">
-                  <img src={withPrefix(_.get(project, "image", null))} />
-                </div>
-              )}
-            </div>
-          ))}
+            console.log('project data', project)
+            return (
+              <div key={project_idx}>
+                {_.map(_.get(project, 'images', null ), (image, image_idx) => (
+                  <img src={withPrefix(_.get(image, 'project_photo', null))} alt={_.get(image, 'project_photo_alt_text', null)} />
+                ))}
+              </div>
+            );
+          })}
         </div>
       </section>
     );

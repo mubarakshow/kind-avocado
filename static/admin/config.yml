@@ -875,7 +875,7 @@ collections:
                 required: true
                 hint: The type of the object
                 default: team_section
-          - name: project_section
+          - name: projects_section
             widget: object
             label: Project Section
             fields:
@@ -928,7 +928,7 @@ collections:
                 label: Object Type
                 required: true
                 hint: The type of the object
-                default: project_section
+                default: projects_section
       - widget: hidden
         name: template
         label: Template
