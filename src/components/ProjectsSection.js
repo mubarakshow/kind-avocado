@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import _ from "lodash";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 // import Modal from 'react-modal';
 import { classNames, withPrefix } from "../utils";
 
@@ -11,12 +13,11 @@ import { classNames, withPrefix } from "../utils";
  */
 
 const ProjectsSection = (props) => {
-
   let section = _.get(props, "section", null);
 
   useEffect(() => {
-    console.log('project section', _.get(section, 'projects', null))
-  }, [section])
+    console.log("project section", _.get(section, "projects", null));
+  }, [section]);
 
   return (
     <section className={classNames("section")}>
@@ -31,14 +32,19 @@ const ProjectsSection = (props) => {
           console.log("project data", project);
           return (
             <div key={project_idx}>
-              <h3>{_.get(project, "title", 'null')}</h3>
-              {_.map(_.get(project, "images", null), (image, image_idx) => (
-                <img
-                  key={image_idx}
-                  src={withPrefix(_.get(image, "project_photo", null))}
-                  alt={_.get(image, "project_photo_alt_text", null)}
-                />
-              ))}
+              <h3>{_.get(project, "title", "null")}</h3>
+              <Carousel
+                showThumbs={false}
+                showArrows={true}
+              >
+                {_.map(_.get(project, "images", null), (image, image_idx) => (
+                  <img
+                    key={image_idx}
+                    src={withPrefix(_.get(image, "project_photo", null))}
+                    alt={_.get(image, "project_photo_alt_text", null)}
+                  />
+                ))}
+              </Carousel>
             </div>
           );
         })}
