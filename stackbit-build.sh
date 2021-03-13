@@ -7,7 +7,7 @@ set -v
 echo "stackbit-build.sh: start build"
 
 # build site
-npm run build
+yarn build
 
 ./inject-netlify-identity-widget.js public
 
