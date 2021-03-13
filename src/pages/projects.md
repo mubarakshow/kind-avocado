@@ -2,13 +2,7 @@
 title: Projects
 sections:
   - type: hero_section
-    align: null
-    image_position: left
-    has_background: false
-    background:
-      ? background_color
-      ? background_image_size
-      ? background_image_repeat
+    align: center
     title: Projects
   - type: projects_section
     projects:
