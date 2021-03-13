@@ -1,3 +1,8 @@
+import React, { useEffect } from "react";
+import _ from "lodash";
+// import Modal from 'react-modal';
+import { classNames, withPrefix } from "../utils";
+
 /**
  * create a card
  * each card represent a project/client
@@ -5,19 +10,13 @@
  * images can be added through Netlify CMS
  */
 
-import React, { useEffect } from "react";
-import _ from "lodash";
-import Modal from "react-modal";
+const ProjectsSection = (props) => {
 
-import { classNames, withPrefix, markdownify } from "../utils";
-
-const ProjectsSection = () => {
-
-  let section = _.get(this.props, "section", null);
+  let section = _.get(props, "section", null);
 
   useEffect(() => {
-    console.log('section', section)
-  }, [])
+    console.log('project section', _.get(section, 'projects', null))
+  }, [section])
 
   return (
     <section className={classNames("section")}>
@@ -32,6 +31,7 @@ const ProjectsSection = () => {
           console.log("project data", project);
           return (
             <div key={project_idx}>
+              <h3>{_.get(project, "title", 'null')}</h3>
               {_.map(_.get(project, "images", null), (image, image_idx) => (
                 <img
                   key={image_idx}
