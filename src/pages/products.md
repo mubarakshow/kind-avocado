@@ -2,7 +2,7 @@
 title: Products
 sections:
   - type: hero_section
-    align: left
+    align: center
     image_position: left
     has_background: false
     background:
