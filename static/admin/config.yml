@@ -929,6 +929,16 @@ collections:
                 required: true
                 hint: The type of the object
                 default: projects_section
+          - name: products_section
+            widget: object
+            label: Products Section
+            fields:
+              - widget: hidden
+                name: type
+                label: Object Type
+                required: true
+                hint: The type of the object
+                default: products_section
       - widget: hidden
         name: template
         label: Template

@@ -15,6 +15,7 @@ import SectionActions from './SectionActions';
 import TeamSection from './TeamSection';
 import Layout from './Layout';
 import ProjectsSection from './ProjectsSection';
+import ProductsSection from './ProductsSection';
 
 export {
     Action,
@@ -33,7 +34,8 @@ export {
     SectionActions,
     TeamSection,
     Layout,
-    ProjectsSection
+    ProjectsSection,
+    ProductsSection
 };
 
 export default {
@@ -53,5 +55,6 @@ export default {
     SectionActions,
     TeamSection,
     Layout,
-    ProjectsSection
+    ProjectsSection,
+    ProductsSection
 };
