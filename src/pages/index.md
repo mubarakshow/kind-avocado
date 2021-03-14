@@ -6,7 +6,7 @@ sections:
     image_position: right
     background:
       background_color: gray
-      background_image: /images/glass-blowing-1-.jpg
+      background_image: /images/diagonal-lines.svg
       background_image_opacity: 60
       background_image_size: auto
       background_image_repeat: no-repeat
