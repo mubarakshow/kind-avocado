@@ -27,27 +27,44 @@ const ProjectsSection = (props) => {
         </div>
       )}
       <div className="container container--lg">
-        {_.map(_.get(section, "projects", null), (project, project_idx) => {
-          // add project card. display in a grid
-          console.log("project data", project);
-          return (
-            <div key={project_idx}>
-              <h3>{_.get(project, "title", "null")}</h3>
-              <Carousel
-                showThumbs={false}
-                showArrows={true}
-              >
-                {_.map(_.get(project, "images", null), (image, image_idx) => (
-                  <img
+        <div 
+          style={{
+            display: 'flex',
+            flexFlow: 'row wrap',
+            justifyContent: 'space-evenly',
+            gap: "2em",
+            // backgroundColor: "pink"
+          }}
+        >
+          {_.map(_.get(section, "projects", null), (project, project_idx) => {
+            // add project card. display in a grid
+            console.log("project data", project);
+            return (
+              <div 
+                key={project_idx} className="" 
+                style={{
+                  maxWidth: "500px", 
+                  textAlign: "center",
+                }}>
+                <Carousel
+                  className="carousel-wrapper"
+                  showThumbs={false}
+                  showArrows={true}
+                  >
+                  {_.map(_.get(project, "images", null), (image, image_idx) => (
+                    <img
                     key={image_idx}
                     src={withPrefix(_.get(image, "project_photo", null))}
                     alt={_.get(image, "project_photo_alt_text", null)}
-                  />
-                ))}
-              </Carousel>
-            </div>
-          );
-        })}
+                    style={{height: '300px', borderRadius: "20px"}}
+                    />
+                    ))}
+                </Carousel>
+                <h3>{_.get(project, "title", "null")}</h3>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
