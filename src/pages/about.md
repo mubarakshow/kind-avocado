@@ -21,12 +21,6 @@ sections:
 
 
       Our team of designers and laser specialists and fabricators, utilize the latest and best materials and methods to achieve incredible detail in finishing and product. You will not see our signs slip, slither or slant, except by design.
-  - type: team_section
-    title: Our Team
-    team:
-      - src/data/team/miles-tone.yaml
-      - src/data/team/david-abam.yaml
-      - src/data/team/eleanor-carr.yaml
   - type: cta_section
     title: Join the Team
     subtitle: Join our growing team of young vibrant and intelligent people.
