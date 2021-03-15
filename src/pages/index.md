@@ -45,10 +45,10 @@ sections:
         title: Sign Installation
         content: Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus eget
           nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in ante.
-        align: right
+        align: left
         image: /images/digital-marketing-1-.jpg
         image_alt: Feature 3 placeholder image
-        image_position: right
+        image_position: left
         actions:
           - type: action
             label: Learn More
