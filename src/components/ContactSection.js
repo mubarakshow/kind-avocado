@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import axios from 'axios'
 
 const ContactSection = () => {
   const [formData, setFromData] = useState({ 
@@ -20,19 +21,25 @@ const ContactSection = () => {
     e.preventDefault();
     const { email, subject, name, message } = formData
     // send a post request to netlify func
-    fetch("http://localhost:8652/sendemail", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json; charset=UTF-8"
-        // 'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: JSON.stringify({
-        senderEmail: email, 
-        senderName: name,
-        subject, 
-        message
-      })
+    axios.post("/api/sendemail", {
+      senderEmail: email, 
+      senderName: name,
+      subject: subject, 
+      message: message
     })
+    // fetch("http://localhost:6041/sendemail", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json; charset=UTF-8"
+    //     // 'Content-Type': 'application/x-www-form-urlencoded',
+    //   },
+    //   body: JSON.stringify({
+    //     senderEmail: email, 
+    //     senderName: name,
+    //     subject: subject, 
+    //     message: message
+    //   })
+    // })
   }
 
   return (
