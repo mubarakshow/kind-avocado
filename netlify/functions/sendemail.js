@@ -4,6 +4,8 @@ const { Mailer } = require("../../services/mailer");
 const nodemailerTest = new Mailer({
   host: 'smtp.ethereal.email',
   port: 587,
+  service: "",
+  secure: false,
   auth: {
       user: 'delbert.stanton82@ethereal.email',
       pass: 'BvhZYW5farSh7UWmGu'
@@ -18,6 +20,13 @@ exports.handler = async (event) => {
     `"${senderName}" <${senderEmail}>`,
     "mubarak.show@gmail.com",
     subject,
-    message
+    message,
+    (error, success) => {
+      if (error) {
+        console.log('error sending email', error)
+      } else {
+        console.log(success)
+      }
+    }
   );
 };
