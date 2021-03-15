@@ -62,7 +62,7 @@ sections:
         align: left
         image: /images/interior-decor-1-.jpg
         image_alt: Feature 2 placeholder image
-        image_position: left
+        image_position: right
         actions:
           - type: action
             label: Learn More
