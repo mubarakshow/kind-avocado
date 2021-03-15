@@ -21,11 +21,11 @@ exports.handler = async (event) => {
     "mubarak.show@gmail.com",
     subject,
     message,
-    (error, success) => {
+    (error, info) => {
       if (error) {
         console.log('error sending email', error)
       } else {
-        console.log(success)
+        console.log(info)
       }
     }
   );
