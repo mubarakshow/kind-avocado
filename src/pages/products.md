@@ -10,6 +10,8 @@ sections:
       background_image_size: cover
       background_image_repeat: no-repeat
     title: Products
+    subtitle: Below are some of our top products. To make enquiries, please copy the
+      product code and contact us through our contact page
   - type: products_section
 template: advanced
 ---
