@@ -18,7 +18,7 @@ exports.handler = async (event) => {
 
   nodemailerTest.sendEmail(
     `"${senderName}" <${senderEmail}>`,
-    "mubarak.show@gmail.com",
+    "delbert.stanton82@ethereal.email",
     subject,
     message,
     (error, info) => {

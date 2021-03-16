@@ -33,9 +33,9 @@ class Mailer {
       subject: subject,
       text: message
     };
-    console.log('hitting sendMail')
+    // console.log('hitting sendMail')
     transport.sendMail(email, callback);
-    console.log('after hitting sendMail')
+    // console.log('after hitting sendMail')
   }
 
   // get current transporter details
