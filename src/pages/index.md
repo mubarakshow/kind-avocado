@@ -12,7 +12,7 @@ sections:
       background_image_repeat: no-repeat
     has_background: true
     subtitle: Building memorable brands across Nigeria and beyond
-    title: Provide way-finding solutions for any given Space.
+    title: Providing way-finding solutions for any given Space.
     type: hero_section
     image: /images/steel-cutting.jpg
     actions:
