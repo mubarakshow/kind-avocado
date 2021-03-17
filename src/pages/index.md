@@ -64,7 +64,7 @@ sections:
             url: /features
             style: secondary
   - type: blog_feed_section
-    title: What's New
+    title: Our Recent Articles
     show_recent: true
     recent_count: 3
   - type: cta_section
