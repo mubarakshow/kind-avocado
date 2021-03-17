@@ -22,10 +22,10 @@ class Mailer {
   // send email
   async sendEmail(from, receiverEmail, subject, message, callback) {
     let transport = await nodemailer.createTransport(this.transporter);
-    // transport.verify((err, success) => {
-    //   if (err) return console.log('Transporter Err', err)
-    //   console.log('Server is ready to take our messages')
-    // })
+    transport.verify((err, success) => {
+      if (err) return console.log('Transporter Err', err.message)
+      console.log('Server is ready to take our messages')
+    })
     
     const email = {
       from: from,
