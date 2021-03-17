@@ -1,23 +1,28 @@
-import { Mailer } from "../../services/mailer";
-import { getTestMessageUrl } from 'nodemailer';
+// import { Mailer } from "../../services/mailer";
+const { createTransport, getTestMessageUrl } = require('nodemailer');
 
 // const trilineNG = new Mailer();
-const nodemailerTest = new Mailer({
-  host: 'smtp.ethereal.email',
-  port: 587,
-  service: "",
-  secure: false,
-  auth: {
-      user: 'delbert.stanton82@ethereal.email',
-      pass: 'BvhZYW5farSh7UWmGu'
-  }
-});
 
 exports.handler = async (event) => {
+  const nodemailerTestTransport = createTransport({
+    host: 'smtp.ethereal.email',
+    port: 587,
+    service: "",
+    secure: false,
+    auth: {
+        user: 'delbert.stanton82@ethereal.email',
+        pass: 'BvhZYW5farSh7UWmGu'
+    }
+  });
+
+  nodemailerTestTransport.verify((err, info) => {
+    if (err) return console.log('error verifying transport ⛔', err.message);
+    return console.log('Transpor verfied ✔')
+  })
   console.log("netlify functions event object", event.body);
   const { senderEmail, senderName, subject, message } = JSON.parse(event.body);
-
-  nodemailerTest.sendEmail(
+  
+  nodemailerTestTransport.sendMail(
     `"${senderName}" <${senderEmail}>`,
     "delbert.stanton82@ethereal.email",
     subject,
