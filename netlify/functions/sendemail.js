@@ -1,5 +1,5 @@
-const { Mailer } = require("../../services/mailer");
-const { getTestMessageUrl } =  require('nodemailer');
+import { Mailer } from "../../services/mailer";
+import { getTestMessageUrl } from 'nodemailer';
 
 // const trilineNG = new Mailer();
 const nodemailerTest = new Mailer({
