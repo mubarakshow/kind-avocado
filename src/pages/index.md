@@ -14,7 +14,7 @@ sections:
     subtitle: Building memorable brands across Nigeria and beyond
     title: Providing way-finding solutions for any given Space.
     type: hero_section
-    image: /images/steel-cutting.jpg
+    image: /images/privacy-screens-partitions.jpg
     actions:
       - type: action
         label: Learn More
