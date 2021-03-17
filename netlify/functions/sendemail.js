@@ -4,7 +4,7 @@ const { createTransport, getTestMessageUrl } = require("nodemailer");
 // const trilineNG = new Mailer();
 
 exports.handler = async (event) => {
-  const nodemailerTestTransport = createTransport({
+  const nodemailerTestTransport = await createTransport({
     host: "smtp.ethereal.email",
     port: 587,
     service: "",
@@ -19,7 +19,7 @@ exports.handler = async (event) => {
     if (err) return console.log("error verifying transport ⛔", err.message);
     return console.log("Transpor verfied ✔");
   });
-  console.log("netlify functions event object", event.body);
+  console.log("request body 🔑", event.body);
   const { senderEmail, senderName, subject, message } = JSON.parse(event.body);
 
   nodemailerTestTransport.sendMail(
