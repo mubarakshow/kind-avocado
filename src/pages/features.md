@@ -19,7 +19,7 @@ sections:
         title: Sign Installation
         content: ""
         align: left
-        image: /images/interior-decor-1-.jpg
+        image: /images/namuda.jpg
         image_alt: Feature 3 placeholder image
         image_position: right
         actions:
