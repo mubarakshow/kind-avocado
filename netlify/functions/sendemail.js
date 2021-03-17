@@ -1,5 +1,5 @@
 const { Mailer } = require("../../services/mailer");
-import { getTestMessageUrl } from 'nodemailer';
+const { getTestMessageUrl } =  require('nodemailer');
 
 // const trilineNG = new Mailer();
 const nodemailerTest = new Mailer({
@@ -26,7 +26,7 @@ exports.handler = async (event) => {
       if (error) {
         console.log('error sending email', error.message)
       } else {
-        console.log(info)
+        console.log('SEND MAIL INFO ===>>>', info)
         console.log('Preview URL: %s', getTestMessageUrl(info))
       }
     }
