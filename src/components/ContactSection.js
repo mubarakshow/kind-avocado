@@ -21,7 +21,7 @@ const ContactSection = () => {
     e.preventDefault();
     const { email, subject, name, message } = formData
     // send a post request to netlify func
-    axios.post("/api/sendemail", {
+    axios.post("/api/send-email", {
       senderEmail: email, 
       senderName: name,
       subject: subject, 
