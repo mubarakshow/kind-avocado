@@ -7,7 +7,7 @@ sections:
   - type: projects_section
     projects:
       - type: project
-        title: Signage
+        title: Signs
         description: ""
         images:
           - type: projec_image
@@ -16,6 +16,14 @@ sections:
             project_photo_description: gtbank signage wuse 2 branch
           - type: projec_image
             project_photo: /images/roundabout-sign-on-site.jpg
+          - type: projec_image
+            project_photo: /images/prized-photo-studio-facial.jpg
+          - type: projec_image
+            project_photo: /images/dsc00241.jpg
+          - type: projec_image
+            project_photo: /images/stainless-steel-shadow-cast.jpg
+          - type: projec_image
+            project_photo: /images/aust-the-tech-cafe.jpg
       - type: project
         title: Others
         images:
