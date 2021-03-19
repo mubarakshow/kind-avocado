@@ -37,7 +37,6 @@
     "react-responsive-carousel": "^3.2.12",
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
-    "sendmail": "^1.6.1",
     "sprintf-js": "^1.1.2"
   }
 }

@@ -27,11 +27,11 @@ const ProjectsSection = (props) => {
         </div>
       )}
       <div className="container container--lg">
-        <div 
+        <div
           style={{
-            display: 'flex',
-            flexFlow: 'row wrap',
-            justifyContent: 'space-evenly',
+            display: "flex",
+            flexFlow: "row wrap",
+            justifyContent: "space-evenly",
             gap: "2em",
             // backgroundColor: "pink"
           }}
@@ -40,25 +40,27 @@ const ProjectsSection = (props) => {
             // add project card. display in a grid
             console.log("project data", project);
             return (
-              <div 
-                key={project_idx} className="" 
+              <div
+                key={project_idx}
+                className=""
                 style={{
-                  maxWidth: "500px", 
+                  maxWidth: "800px",
                   textAlign: "center",
-                }}>
+                }}
+              >
                 <Carousel
                   className="carousel-wrapper"
                   showThumbs={false}
                   showArrows={true}
-                  >
+                >
                   {_.map(_.get(project, "images", null), (image, image_idx) => (
                     <img
-                    key={image_idx}
-                    src={withPrefix(_.get(image, "project_photo", null))}
-                    alt={_.get(image, "project_photo_alt_text", null)}
-                    style={{height: '300px', borderRadius: "20px"}}
+                      key={image_idx}
+                      src={withPrefix(_.get(image, "project_photo", null))}
+                      alt={_.get(image, "project_photo_alt_text", null)}
+                      style={{ height: "100%" }}
                     />
-                    ))}
+                  ))}
                 </Carousel>
                 <h3>{_.get(project, "title", "null")}</h3>
               </div>

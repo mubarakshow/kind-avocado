@@ -11,16 +11,27 @@ const nodemailerTestTransport = nodemailer.createTransport({
   },
 });
 
+const mailhogTransporter = nodemailer.createTransport({
+  host: "localhost",
+  service: "mailhog",
+  port: 1025,
+  secure: false, // true for 465, false for other ports
+  pool: true,
+  logger: true,
+  // auth: {
+  //   user: 'user' ,
+  //   pass: 'pass',
+  // }
+})
+
 exports.handler = async function (event, context) {
   const { senderEmail, senderName, subject, message } = JSON.parse(event.body);
-  console.log("request body 🔑", event.body);
-  console.log("sending message to delbert.stanton82@ethereal.email");
-
+  
   const response = await new Promise((resolve, reject) => {
-    nodemailerTestTransport.sendMail(
+    mailhogTransporter.sendMail(
       {
         from: `"${senderName}" <${senderEmail}>`,
-        to: "delbert.stanton82@ethereal.email",
+        to: process.env.CONTACT_EMAIL,
         subject: subject,
         text: message,
         html: `<h2>${message}</h2>`,
@@ -29,10 +40,14 @@ exports.handler = async function (event, context) {
         if (error) {
           return reject("error sending email", error.message);
         } else {
-          resolve("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+          resolve(info);
         }
       }
     );
   });
-  console.log('final response: 👉', response);
+  
+  return {
+    statusCode: 200,
+    body: JSON.stringify(response)
+  }  
 };

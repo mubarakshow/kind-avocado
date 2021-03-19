@@ -13,7 +13,7 @@ sections:
         actions:
           - type: action
             label: Learn More
-            url: /about
+            url: /projects
             style: primary
       - type: feature
         title: Sign Installation
@@ -25,7 +25,7 @@ sections:
         actions:
           - type: action
             label: Learn More
-            url: /blog
+            url: /projects
             style: primary
       - type: feature
         title: Gates and Screens
@@ -37,7 +37,7 @@ sections:
         actions:
           - type: action
             label: Learn More
-            url: /style-guide
+            url: /projects
             style: primary
 template: advanced
 ---
