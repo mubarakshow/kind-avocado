@@ -7,23 +7,21 @@ sections:
   - type: projects_section
     projects:
       - type: project
-        title: GTBank Signage
-        description: gtbank signage wuse 2 branch
+        title: Signage
+        description: ""
         images:
           - type: projec_image
-            project_photo_alt_text: gtbank signage wuse 2 branch
-            project_photo: /images/gtbank-signage.png
+            project_photo_alt_text: ""
+            project_photo: /images/namuda.jpg
             project_photo_description: gtbank signage wuse 2 branch
           - type: projec_image
-            project_photo: /images/office-art-1-.jpg
-          - type: projec_image
-            project_photo: /images/laser-flying-tiny.jpg
+            project_photo: /images/roundabout-sign-on-site.jpg
       - type: project
-        title: JAMStack Signage
+        title: Others
         images:
           - type: projec_image
-            project_photo: /images/2.png
+            project_photo: /images/privacy-screens-partitions.jpg
           - type: projec_image
-            project_photo: /images/3.png
+            project_photo: /images/partition-reverse.jpg
 template: advanced
 ---
