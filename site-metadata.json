@@ -80,14 +80,14 @@
       {
         "type": "action",
         "label": "Twitter",
-        "url": "https://twitter.com/",
+        "url": "/",
         "style": "link",
         "new_window": true
       },
       {
         "type": "action",
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/",
+        "url": "/",
         "style": "link",
         "new_window": true
       }
