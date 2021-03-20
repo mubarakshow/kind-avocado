@@ -13,7 +13,7 @@ sections:
           - type: projec_image
             project_photo_alt_text: ""
             project_photo: /images/namuda.jpg
-            project_photo_description: gtbank signage wuse 2 branch
+            project_photo_description: ""
           - type: projec_image
             project_photo: /images/roundabout-sign-on-site.jpg
           - type: projec_image
@@ -24,6 +24,8 @@ sections:
             project_photo: /images/stainless-steel-shadow-cast.jpg
           - type: projec_image
             project_photo: /images/aust-the-tech-cafe.jpg
+          - type: projec_image
+            project_photo: /images/rfid-ss-sign2-mcu.jpg
       - type: project
         title: Others
         images:
