@@ -94,5 +94,6 @@
     ],
     "content": "Copyright &copy; 2021 Triline Limited, all rights reserved.",
     "links": []
-  }
+  },
+  "favicon": "/images/favicon.png"
 }
