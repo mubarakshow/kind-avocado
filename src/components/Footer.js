@@ -1,16 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import _ from "lodash";
 
 import Action from "./Action";
 import { htmlToReact, withPrefix } from "../utils";
 
 const Footer = (props) => {
-  useEffect(() => {
-    console.log(
-      "footerData",
-      _.get(props, "pageContext.site.siteMetadata.footer.social_links", null)
-    );
-  }, []);
 
   return (
     <footer className="site-footer">
@@ -57,9 +51,10 @@ const Footer = (props) => {
                   (action, action_idx) => (
                     <li key={action_idx}>
                       {_.get(action, "social_icon", null) && (
-                        <a href={_.get(action, "url", "#")} target="_blank">
+                        <a href={_.get(action, "url", "#")} target="_blank" rel="noreferrer">
                           <img
                             src={withPrefix(_.get(action, "social_icon", null))}
+                            alt="social icon"
                             height="30px"
                             width="30px"
                           />

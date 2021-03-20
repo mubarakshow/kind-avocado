@@ -26,7 +26,6 @@ const ProjectsSection = (props) => {
         >
           {_.map(_.get(section, "projects", null), (project, project_idx) => {
             // add project card. display in a grid
-            console.log("project data", project);
             return (
               <div
                 key={project_idx}
@@ -40,7 +39,7 @@ const ProjectsSection = (props) => {
                   arrows={true}
                   centerMode={true}
                   swipeable={true}
-                  emulateTouch={true}
+                  // emulateTouch={true}
                   autoPlay={true}
                   infiniteLoop
                 >
