@@ -39,9 +39,7 @@ const ProjectsSection = (props) => {
                   arrows={true}
                   centerMode={true}
                   swipeable={true}
-                  // emulateTouch={true}
                   autoPlay={true}
-                  infiniteLoop
                 >
                   {_.map(_.get(project, "images", null), (image, image_idx) => (
                     <div
