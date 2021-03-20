@@ -31,5 +31,12 @@ sections:
             project_photo: /images/privacy-screens-partitions.jpg
           - type: projec_image
             project_photo: /images/partition-reverse.jpg
+          - type: projec_image
+            project_photo: /images/img_1669.jpg
+          - type: projec_image
+            project_photo: /images/light2.jpg
+          - type: projec_image
+            project_photo: /images/light2.jpg
+            project_photo_alt_text: SUN HEAVEN LEKKI POOL Sign
 template: advanced
 ---
