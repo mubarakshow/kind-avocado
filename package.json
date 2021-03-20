@@ -33,7 +33,6 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-html-parser": "^2.0.2",
-    "react-modal": "^3.12.1",
     "react-responsive-carousel": "^3.2.12",
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",

@@ -27,19 +27,6 @@ const ContactSection = () => {
       subject: subject, 
       message: message
     })
-    // fetch("http://localhost:6041/sendemail", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json; charset=UTF-8"
-    //     // 'Content-Type': 'application/x-www-form-urlencoded',
-    //   },
-    //   body: JSON.stringify({
-    //     senderEmail: email, 
-    //     senderName: name,
-    //     subject: subject, 
-    //     message: message
-    //   })
-    // })
   }
 
   return (

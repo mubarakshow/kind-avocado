@@ -1,5 +1,38 @@
-.carousel-wrapper,
-.carousel {
-  border-radius: 8.999px;
-  max-height: 600px;
+$mobile-sm: 300px;
+$mobile: 420px;
+$tablet: 768px;
+$desktop: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet}) and (max-width: #{$desktop - 1px}) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: #{$mobile}) and (max-width: #{$tablet - 1px}) {
+    @content;
+  }
+}
+@mixin mobile-sm {
+  @media (min-width: #{$mobile-sm}) and (max-width: #{$mobile - 1px}) {
+    @content;
+  }
+}
+
+// .carousel .slider-wrapper.axis-horizontal .slider {
+//   // gap: 2em;
+// }
+
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+  // border-radius: 2em;
+  .projects-image-container {
+    padding: 2em 1em;
+    height: 600px;
+    @include mobile-sm {
+      height: 300px;
+    }
+    @include mobile {
+      height: 400px;
+    }
+  }
 }

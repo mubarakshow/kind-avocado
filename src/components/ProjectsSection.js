@@ -1,23 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import _ from "lodash";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
-// import Modal from 'react-modal';
 import { classNames, withPrefix } from "../utils";
-
-/**
- * create a card
- * each card represent a project/client
- * card onClick opens up a modal with carousel
- * images can be added through Netlify CMS
- */
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const ProjectsSection = (props) => {
   let section = _.get(props, "section", null);
-
-  useEffect(() => {
-    console.log("project section", _.get(section, "projects", null));
-  }, [section]);
 
   return (
     <section className={classNames("section")}>
@@ -30,10 +18,10 @@ const ProjectsSection = (props) => {
         <div
           style={{
             display: "flex",
-            flexFlow: "row wrap",
-            justifyContent: "space-evenly",
+            flexDirection: "column",
+            // flexFlow: "row wrap",
+            justifyContent: "center",
             gap: "2em",
-            // backgroundColor: "pink"
           }}
         >
           {_.map(_.get(section, "projects", null), (project, project_idx) => {
@@ -44,22 +32,38 @@ const ProjectsSection = (props) => {
                 key={project_idx}
                 className=""
                 style={{
-                  maxWidth: "800px",
                   textAlign: "center",
                 }}
               >
                 <Carousel
-                  className="carousel-wrapper"
                   showThumbs={false}
-                  showArrows={true}
+                  arrows={true}
+                  centerMode={true}
+                  swipeable={true}
+                  emulateTouch={true}
+                  autoPlay={true}
+                  infiniteLoop
                 >
                   {_.map(_.get(project, "images", null), (image, image_idx) => (
-                    <img
-                      key={image_idx}
-                      src={withPrefix(_.get(image, "project_photo", null))}
-                      alt={_.get(image, "project_photo_alt_text", null)}
-                      style={{ height: "100%" }}
-                    />
+                    <div
+                      key={`image-container-${image_idx}`}
+                      className="projects-image-container"
+                    >
+                      <img
+                        key={image_idx}
+                        className="carousel__image-item"
+                        src={withPrefix(_.get(image, "project_photo", null))}
+                        alt={_.get(image, "project_photo_alt_text", null)}
+                        style={{
+                          height: "100%",
+                          objectFit: "cover",
+                          objectPosition: "center",
+                          borderRadius: "1em",
+                          boxShadow:
+                            "inset 0 2px 10px #dcffa6, 0px 5px 35px #303030",
+                        }}
+                      />
+                    </div>
                   ))}
                 </Carousel>
                 <h3>{_.get(project, "title", "null")}</h3>
