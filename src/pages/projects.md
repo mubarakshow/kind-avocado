@@ -26,6 +26,8 @@ sections:
             project_photo: /images/aust-the-tech-cafe.jpg
           - type: projec_image
             project_photo: /images/rfid-ss-sign2-mcu.jpg
+          - type: projec_image
+            project_photo: /images/architectural-sign.jpg
       - type: project
         title: Others
         images:
