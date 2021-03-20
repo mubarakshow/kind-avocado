@@ -165,6 +165,10 @@ collections:
                     name: label
                     label: Label
                     required: true
+                  - widget: image
+                    name: social_icon
+                    label: Social Icon
+                    required: false
                   - widget: string
                     name: url
                     label: URL
