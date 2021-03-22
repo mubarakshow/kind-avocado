@@ -12,7 +12,7 @@ sections:
       background_image_repeat: no-repeat
     has_background: true
     subtitle: Building memorable brands across Nigeria and beyond
-    title: Providing way-finding solutions for any given Space.
+    title: Providing way-finding solutions for any given Space
     type: hero_section
     image: /images/privacy-screens-partitions.jpg
     actions:
@@ -69,7 +69,7 @@ sections:
     recent_count: 3
   - type: cta_section
     title: Work With Us
-    subtitle: View some of our best works
+    subtitle: View some of our works
     actions:
       - type: action
         label: View Projects
