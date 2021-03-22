@@ -14,7 +14,7 @@ sections:
   - type: features_section
     features:
       - type: feature
-        title: Laser Cutting
+        title: Laser Cutting and Engraving
         content: ""
         align: left
         image: /images/partition-reverse.jpg
