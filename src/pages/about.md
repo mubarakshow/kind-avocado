@@ -8,7 +8,7 @@ sections:
   - type: content_section
     content: >-
       At Triline Ng, we strive for excellence and scalability. We are not just
-      your regular sign designers, fabrication or manufacturers, we are a
+      your regular sign designers, fabricators or manufacturers, we are a
       company that stands up to any challenge. We encourage our customers to
       think as big as they can and we take up the challenge of bringing their
       thoughts and dreams to reality.
