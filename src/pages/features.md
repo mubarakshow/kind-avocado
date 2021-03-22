@@ -10,7 +10,7 @@ sections:
       background_image_size: cover
       background_image_repeat: no-repeat
     title: Services
-    subtitle: "We are here to help project your brand however possible. "
+    subtitle: "We are here to help project your brand creatively. "
   - type: features_section
     features:
       - type: feature
