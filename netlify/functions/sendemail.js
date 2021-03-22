@@ -42,7 +42,7 @@ exports.handler = async function (event, context) {
     signsAtTrilinengTransporter.sendMail(
       {
         from: `"Triline NG" <${process.env.CONTACT_EMAIL}>`,
-        to: process.env.CONTACT_EMAIL,
+        to: [process.env.CONTACT_EMAIL, process.env.CONTACT_EMAIL_2],
         subject: `${
           subject == "Other" ? "Enquiry from " + senderName : subject + " from  " + senderName 
         }`,

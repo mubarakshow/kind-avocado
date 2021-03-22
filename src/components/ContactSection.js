@@ -1,33 +1,48 @@
 import React, { useState } from "react";
-import axios from 'axios'
+import axios from "axios";
 
 const ContactSection = () => {
-  const [formData, setFromData] = useState({ 
+  const [formData, setFromData] = useState({
     name: "",
     email: "",
     subject: "",
-    message: "", 
+    message: "",
   });
 
   const handleInputChange = (e) => {
     setFromData({
-      ...formData, 
-      [e.target.name]: e.target.value 
+      ...formData,
+      [e.target.name]: e.target.value,
     });
     // console.log(formData)
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    const { email, subject, name, message } = formData
+    const { email, subject, name, message } = formData;
     // send a post request to netlify func
-    axios.post("/api/sendemail", {
-      senderEmail: email, 
-      senderName: name,
-      subject: subject, 
-      message: message
-    })
-  }
+    axios
+      .post("/api/sendemail", {
+        senderEmail: email,
+        senderName: name,
+        subject: subject,
+        message: message,
+      })
+      .then(() => {
+        resetForm();
+      })
+      .catch();
+  };
+
+  const resetForm = () => {
+    setFromData({
+      ...formData,
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+  };
 
   return (
     <section className="section">
@@ -89,7 +104,12 @@ const ContactSection = () => {
           <div className="form-group">
             <label htmlFor="subject">Subject</label>
             <div className="form-select-wrap">
-              <select name="subject" id="subject" value={formData.subject} onChange={handleInputChange}>
+              <select
+                name="subject"
+                id="subject"
+                value={formData.subject}
+                onChange={handleInputChange}
+              >
                 <option value="">Please select</option>
                 <option value="Business Inquiries">Business Inquiries</option>
                 <option value="Product Inquiries">Product Inquiries</option>
