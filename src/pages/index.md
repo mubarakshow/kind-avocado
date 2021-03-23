@@ -52,7 +52,7 @@ sections:
             url: /features
             style: secondary
       - type: feature
-        title: Gates and Screens
+        title: Gates and Privacy Screens
         content: ""
         align: left
         image: /images/steel-cutting.jpg
