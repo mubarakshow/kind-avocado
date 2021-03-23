@@ -7,11 +7,10 @@ sections:
     image: ""
   - type: content_section
     content: >-
-      At Triline Ng, we strive for excellence and scalability. We are not just
-      your regular sign designers, fabricators or manufacturers, we are a
-      company that stands up to any challenge. We encourage our customers to
-      think as big as they can and we take up the challenge of bringing their
-      thoughts and dreams to reality.
+      LASER CUTTING, ENGRAVING, MARKING and AESTHETICS.
+
+
+      At Triline Ng, we strive for excellence and scalability. We are not just your regular sign designers, fabricators or manufacturers, we are a company that stands up to any challenge. We encourage our customers to think as big as they can and we take up the challenge of bringing their thoughts and dreams to reality.
 
 
       At Triline Ng, the more challenging the project, the more exciting it becomes. Our international partnership and collaboration means we stay ahead of the technology that drives the industry.
