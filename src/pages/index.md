@@ -11,7 +11,7 @@ sections:
       background_image_size: auto
       background_image_repeat: no-repeat
     has_background: true
-    subtitle: Building memorable brands across Nigeria and beyond
+    subtitle: Providing memorable and durable visibility for brands across all landscapes
     title: Providing way-finding solutions and aesthetics for any given Space
     type: hero_section
     image: /images/privacy-screens-partitions.jpg
