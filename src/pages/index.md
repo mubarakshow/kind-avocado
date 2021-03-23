@@ -28,7 +28,7 @@ sections:
     title: Services
     features:
       - type: feature
-        title: Laser Cutting
+        title: Laser Cutting, Engraving, Marking, Products
         content: ""
         align: left
         image: /images/partition-reverse.jpg
