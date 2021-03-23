@@ -40,7 +40,7 @@ sections:
             url: /features
             style: secondary
       - type: feature
-        title: Sign Installation
+        title: Signs - Design, Manufacture, Installation and Maintenance
         content: ""
         align: left
         image: /images/namuda.jpg
