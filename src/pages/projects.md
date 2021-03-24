@@ -12,7 +12,7 @@ sections:
         images:
           - type: projec_image
             project_photo_alt_text: ""
-            project_photo: /images/namuda.jpg
+            project_photo: /images/aust6.jpg
             project_photo_description: ""
           - type: projec_image
             project_photo: /images/roundabout-sign-on-site.jpg
