@@ -17,7 +17,7 @@ sections:
           - type: projec_image
             project_photo: /images/roundabout-sign-on-site.jpg
           - type: projec_image
-            project_photo: /images/prized-photo-studio-facial.jpg
+            project_photo: /images/prized-photos-facial.jpg
           - type: projec_image
             project_photo: /images/dsc00241.jpg
           - type: projec_image
