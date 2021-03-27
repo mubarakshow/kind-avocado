@@ -28,6 +28,10 @@ sections:
             project_photo: /images/rfid-ss-sign2-mcu.jpg
           - type: projec_image
             project_photo: /images/architectural-sign.jpg
+          - type: projec_image
+            project_photo: /images/bsc-car-branding.jpg
+          - type: projec_image
+            project_photo: /images/orji-uzor-kalu-cu-pix.jpg
       - type: project
         title: Others
         images:
