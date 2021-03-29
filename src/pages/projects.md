@@ -46,5 +46,17 @@ sections:
           - type: projec_image
             project_photo: /images/light2.jpg
             project_photo_alt_text: SUN HEAVEN LEKKI POOL Sign
+          - type: projec_image
+            project_photo: /images/arylic-plaque_you-stole-my-heart-best.jpg
+          - type: projec_image
+            project_photo: /images/mandela-house-sign.jpg
+          - type: projec_image
+            project_photo: /images/keame-presser.jpg
+          - type: projec_image
+            project_photo: /images/petit-trois-stamp_113118.jpg
+          - type: projec_image
+            project_photo: /images/laser-cut-card.jpg
+          - type: projec_image
+            project_photo: /images/sheraton-sign.jpg
 template: advanced
 ---
