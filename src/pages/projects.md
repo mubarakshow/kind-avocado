@@ -44,7 +44,7 @@ sections:
           - type: projec_image
             project_photo: /images/light2.jpg
           - type: projec_image
-            project_photo: /images/light2.jpg
+            project_photo: /images/img-20190918-wa0004.jpg
             project_photo_alt_text: SUN HEAVEN LEKKI POOL Sign
           - type: projec_image
             project_photo: /images/arylic-plaque_you-stole-my-heart-best.jpg
