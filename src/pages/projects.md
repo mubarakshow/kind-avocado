@@ -40,7 +40,7 @@ sections:
           - type: projec_image
             project_photo: /images/partition-reverse.jpg
           - type: projec_image
-            project_photo: /images/img_1669.jpg
+            project_photo: /images/partition-ecu-pix.jpg
           - type: projec_image
             project_photo: /images/light2.jpg
           - type: projec_image
