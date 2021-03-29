@@ -17,7 +17,7 @@ sections:
         title: Laser Cutting and Engraving
         content: ""
         align: left
-        image: /images/partition-reverse.jpg
+        image: /images/eng-box.jpg
         image_alt: Feature 1 placeholder image
         image_position: right
         actions:
