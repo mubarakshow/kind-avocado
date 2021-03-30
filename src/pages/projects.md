@@ -34,6 +34,8 @@ sections:
             project_photo: /images/orji-uzor-kalu-cu-pix.jpg
           - type: projec_image
             project_photo: /images/door-sign.jpg
+          - type: projec_image
+            project_photo: /images/img_0467.jpg
       - type: project
         title: Others
         images:
@@ -60,5 +62,7 @@ sections:
             project_photo: /images/laser-cut-card.jpg
           - type: projec_image
             project_photo: /images/sheraton-sign.jpg
+          - type: projec_image
+            project_photo: /images/buconpro.jpg
 template: advanced
 ---
