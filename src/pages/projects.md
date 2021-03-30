@@ -32,6 +32,8 @@ sections:
             project_photo: /images/bsc-car-branding.jpg
           - type: projec_image
             project_photo: /images/orji-uzor-kalu-cu-pix.jpg
+          - type: projec_image
+            project_photo: /images/door-sign.jpg
       - type: project
         title: Others
         images:
