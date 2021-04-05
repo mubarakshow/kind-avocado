@@ -2,6 +2,7 @@
 title: "#knowlaser"
 date: 2021-03-29T11:43:27.932Z
 tags: []
+image: /images/how-lasers-work-small.gif
 template: post
 ---
 DID YOU KNOW?
@@ -14,6 +15,8 @@ A laser beam is a single wavelength light, coherent or focused and therefore can
 
 Lasers may operate in a continuous wave mode or in a pulsed mode. In the latter situation, the energy that results is stored or halted and suddenly released in a controlled sequence.
 
-When laser beams are focused onto tiny spots, they can be put to vast array of applications or uses - medical, printing, communication, military, ***cutting and engraving***, and so forth.   
+When laser beams are focused onto tiny spots, they can be put to vast array of applications or uses - medical, printing, communication, military, ***cutting and engraving***, and so forth.
+
+*Image credit:* National Ignition Facility, CA, USA   
 
 \#knowlaser
