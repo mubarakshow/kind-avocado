@@ -17,6 +17,8 @@ Lasers may operate in a continuous wave mode or in a pulsed mode. In the latter 
 
 When laser beams are focused onto tiny spots, they can be put to vast array of applications or uses - medical, printing, communication, military, ***cutting and engraving***, and so forth.
 
+
+
 *Image credit:* National Ignition Facility, CA, USA   
 
 \#knowlaser
