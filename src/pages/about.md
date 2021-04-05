@@ -16,10 +16,10 @@ sections:
       At **Triline Ng**, the more challenging the project, the more exciting it becomes. Our international partnerships and collaborations mean we stay abreast of the technology that drives the industry.
 
 
-      Among the toast of our customized laser cut products are our bespoke signature wedding cards, acrylic Emotions Cards,  Desk Organizers, ComfyPads - which in their own rights are unique ways for you to make that unique and memorable statement.
+      Among the toast of our customized laser cut products are our bespoke signature wedding cards, acrylic Emotions Cards,  Desk Organizers, ComfyPads - which in their own rights are unique ways for you to make that personalized and memorable statement.
 
 
-      Our team of designers and laser specialists and fabricators, utilize the latest and best materials and methods to achieve incredible detail in finishing and product. JUST CHECK OUT THE DETAILS! 
+      Our team of designers and laser specialists and fabricators, utilize the latest and best materials and methods to achieve incredible detail in finishing and products. *Just check out the details*! 
 
 
       You will not see our signs slip, slither or slant, except by design.
