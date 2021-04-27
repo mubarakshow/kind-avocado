@@ -1,8 +1,8 @@
 ---
-title: CUSTOMIZATION
+title: Customization
 date: 2021-04-27T13:12:16.940Z
 author: ""
-image: /images/pen.jpg
+image: /images/keame-presser.jpg
 template: post
 ---
 **Everyone is unique**. It is therefore no surprise that we all desire and appreciate even little but important pecks that remind us of and celebrate our uniqueness, or that which simply speaks to that uniqueness - Customization.
