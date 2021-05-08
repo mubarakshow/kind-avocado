@@ -1,6 +1,7 @@
 ---
 title: Signature Wedding Cards
 date: 2021-05-08T14:09:03.128Z
+image: /images/j-g-card3.jpg
 template: post
 ---
 You proposed in a special way, uniquely personal, because you aimed to make that special moment memorable.
