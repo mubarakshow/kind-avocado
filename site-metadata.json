@@ -78,20 +78,21 @@
     "has_social": true,
     "social_links": [
       {
-        "type": "action",
-        "label": "Twitter",
-        "url": "/",
         "style": "link",
         "new_window": true,
-        "social_icon": "/images/twitter-logo-round.png"
+        "no_follow": false,
+        "type": "action",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/triline_ng/"
       },
       {
-        "type": "action",
-        "label": "LinkedIn",
-        "url": "/",
         "style": "link",
         "new_window": true,
-        "social_icon": "/images/linkedin-logo-round.png"
+        "no_follow": false,
+        "type": "action",
+        "social_icon": "/images/facebook-logo.png",
+        "label": "Facebook",
+        "url": "https://www.facebook.com/Trilineng"
       }
     ],
     "content": "Copyright &copy; 2021 Triline Limited, all rights reserved.",
