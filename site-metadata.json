@@ -40,7 +40,8 @@
         "type": "action",
         "label": "Blog",
         "url": "/blog",
-        "style": "link"
+        "style": "link",
+        "new_window": false
       },
       {
         "type": "action",
